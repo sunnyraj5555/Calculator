@@ -1,0 +1,90 @@
+
+<html>
+<head>
+<title></title>
+
+<style>
+
+body {  
+        
+		background-color: #0a3d62;
+}
+
+#clear {
+	width: 190px;
+	background-color:#00b894;
+	color: black;
+	font-size: 1rem;
+	height:30px;
+}
+
+
+input{
+	width:60px;
+	background-color:  white;
+	height:30px;
+	
+	
+}
+
+#answerstyle{
+		width:250px;
+		background-color: grey;
+		height: 50px;
+}
+
+h1{
+	margin:30px;
+	text-shadow: 5px 1px white;
+	font-size: 5rem;
+	color: #f6b93b;
+	font-family: sans-serif;
+}
+
+</style>
+
+</head>
+<body>
+
+
+<center>
+
+<h1> $r Calculator $r</h1>
+<form name="forms">
+
+<input type="text" name="answer" id="answerstyle">
+
+<br></br>
+
+<input type="button" value=" 1 " onclick="form.answer.value += '1' ">
+<input type="button" value=" 2 " onclick="form.answer.value += '2' ">
+<input type="button" value=" 3 " onclick="form.answer.value += '3' ">
+<input type="button" value=" + " onclick="form.answer.value += '+' ">
+<br></br>
+<input type="button" value=" 4 " onclick="form.answer.value += '4' ">
+<input type="button" value=" 5 " onclick="form.answer.value += '5' ">
+<input type="button" value=" 6 " onclick="form.answer.value += '6' ">
+<input type="button" value=" - " onclick="form.answer.value += '-' ">
+<br></br>
+<input type="button" value=" 7 " onclick="form.answer.value += '7' ">
+<input type="button" value=" 8 " onclick="form.answer.value += '8' ">
+<input type="button" value=" 9 " onclick="form.answer.value += '9' ">
+<input type="button" value=" * " onclick="form.answer.value += '*' ">
+<br></br>
+<input type="button" value=" 0 " onclick="form.answer.value += '0' ">
+<input type="button" value=" ( " onclick="form.answer.value += '(' ">
+<input type="button" value=" ) " onclick="form.answer.value += ')' ">
+<input type="button" value=" / " onclick="form.answer.value += '/' ">
+<br></br>
+<input type="button" value=" = " onclick="form.answer.value = eval(form.answer.value)">
+<input type="button" value=" CLEAR ALL " onclick="form.answer.value = '' " id="clear">
+
+
+</form>
+</center>
+
+</body>
+
+
+
+</html>
