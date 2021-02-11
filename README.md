@@ -62,3 +62,12 @@ _ One braek tag after each layer to come on next line
     <input type="button" value=" - " onclick="form.answer.value += '-' ">
     <br></br>
 ```
+
+- Layer 4: same as previous
+```html
+    <input type="button" value=" 7 " onclick="form.answer.value += '7' ">
+    <input type="button" value=" 8 " onclick="form.answer.value += '8' ">
+    <input type="button" value=" 9 " onclick="form.answer.value += '9' ">
+    <input type="button" value=" * " onclick="form.answer.value += '*' ">
+    <br></br>
+```
