@@ -18,3 +18,8 @@ Here we will deciede the User interface of the Calculator
 - The calculator will be in middle 
 - it will contain 6 layers
 
+### Layer 1: 
+- Only Screen with grey backgroung
+
+### Layer 2:
+- Three Numbers ``` |1|2|3|``` & one Addition ```+``` operator.
