@@ -12,7 +12,7 @@
 - One Button to Clean i.e. ```CLEAR ALL```
 - One hrading to Display ```$r calculator $r```
 
-## Designing:
+## Designing Phase:
 Here we will deciede the User interface of the Calculator
 - The heading ```$r Calculator $r``` will be Yellow (To give rich look like gold)with a white supportive background.
 - The calculator will be in middle 
@@ -35,3 +35,10 @@ Here we will deciede the User interface of the Calculator
 
 ### Layer 6:
 - One Equal to ``` =``` Operator & one Button for ```CLEAR ALL```.
+
+## Development Phase:
+- For accepting the the input we need a form ```<form> </form>``` as well as input tag ```<input>```
+- Layer 1: For display the answers we will take a input tag with type "text" the id is given for designing using css and the name is given to provide access the layer.
+```html
+    <input type="text" name="answer" id="answerstyle">
+```
