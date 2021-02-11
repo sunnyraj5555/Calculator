@@ -81,3 +81,10 @@ _ One braek tag after each layer to come on next line
     <br></br>
 ```
 
+- Layer 6: Here there will be 2 buttons
+```html
+    <input type="button" value=" = " onclick="form.answer.value = eval(form.answer.value)">
+    <input type="button" value=" CLEAR ALL " onclick="form.answer.value = '' " id="clear">
+```
+
+
