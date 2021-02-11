@@ -38,7 +38,27 @@ Here we will deciede the User interface of the Calculator
 
 ## Development Phase:
 - For accepting the the input we need a form ```<form> </form>``` as well as input tag ```<input>```
+
 - Layer 1: For display the answers we will take a input tag with type "text" the id is given for designing using css and the name is given to provide access the layer.
 ```html
     <input type="text" name="answer" id="answerstyle">
+```
+_ One braek tag after each layer to come on next line 
+```<br></br>```
+
+- Layer 2: Here we will use input type "button" and the pass the value which we want to print.
+```html
+    <input type="button" value=" 1 " onclick="form.answer.value += '1' ">
+    <input type="button" value=" 2 " onclick="form.answer.value += '2' ">
+    <input type="button" value=" 3 " onclick="form.answer.value += '3' ">
+    <input type="button" value=" + " onclick="form.answer.value += '+' ">
+```
+
+- Layer 3: same as previous
+```html
+    <input type="button" value=" 4 " onclick="form.answer.value += '4' ">
+    <input type="button" value=" 5 " onclick="form.answer.value += '5' ">
+    <input type="button" value=" 6 " onclick="form.answer.value += '6' ">
+    <input type="button" value=" - " onclick="form.answer.value += '-' ">
+    <br></br>
 ```
