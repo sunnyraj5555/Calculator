@@ -1,4 +1,4 @@
-# Calculator
+# Calculator version1.0
 
 ## The calculator is made using pure javascript,html and css
 
@@ -37,7 +37,7 @@ Here we will deciede the User interface of the Calculator
 - One Equal to ``` =``` Operator & one Button for ```CLEAR ALL```.
 
 ## Development Phase:
-- For accepting the the input we need a form ```<form> </form>``` as well as input tag ```<input>```
+- For accepting the the input we need a form ```<form name="forms"> </form>``` as well as input tag ```<input>```
 
 - Layer 1: For display the answers we will take a input tag with type "text" the id is given for designing using css and the name is given to provide access the layer.
 ```html
@@ -87,4 +87,8 @@ _ One braek tag after each layer to come on next line
     <input type="button" value=" CLEAR ALL " onclick="form.answer.value = '' " id="clear">
 ```
 
+The main Catch in the program is at two Place.
+1. What is the need for ```onclick="form.answer.value += '1'``` ?
+- using Onclick function when user will enter let say ```1``` the 1 (i.e value) should be dispalyed in layer 1 screen ```Having name ="answer"``` for that we would have to give the path to 1 (i.e value) i.e ```form.answer.value``` and ```+= '1'``` is nothing but ```value = value + '1'``` here '1' is character added with the number.
+2. What is form.answer.value assigned to '' ```value=" CLEAR ALL " onclick="form.answer.value = '' ``` ?
 
