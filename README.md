@@ -71,3 +71,13 @@ _ One braek tag after each layer to come on next line
     <input type="button" value=" * " onclick="form.answer.value += '*' ">
     <br></br>
 ```
+
+- Layer 5: same as previous
+```html
+    <input type="button" value=" 0 " onclick="form.answer.value += '0' ">
+    <input type="button" value=" ( " onclick="form.answer.value += '(' ">
+    <input type="button" value=" ) " onclick="form.answer.value += ')' ">
+    <input type="button" value=" / " onclick="form.answer.value += '/' ">
+    <br></br>
+```
+
