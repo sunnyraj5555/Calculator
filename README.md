@@ -90,5 +90,8 @@ _ One braek tag after each layer to come on next line
 The main Catch in the program is at two Place.
 1. What is the need for ```onclick="form.answer.value += '1'``` ?
 - using Onclick function when user will enter let say ```1``` the 1 (i.e value) should be dispalyed in layer 1 screen ```Having name ="answer"``` for that we would have to give the path to 1 (i.e value) i.e ```form.answer.value``` and ```+= '1'``` is nothing but ```value = value + '1'``` here '1' is character added with the number.
+
 2. What is form.answer.value assigned to '' ```value=" CLEAR ALL " onclick="form.answer.value = '' ``` ?
 - To clear all we need to give nothing so ```' '``` space is given.
+
+
