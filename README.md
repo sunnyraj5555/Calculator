@@ -94,4 +94,9 @@ The main Catch in the program is at two Place.
 2. What is form.answer.value assigned to '' ```value=" CLEAR ALL " onclick="form.answer.value = '' ``` ?
 - To clear all we need to give nothing so ```' '``` space is given.
 
+## Testing:
+- Enter the Numbers and perform your wished operation.
+
+## Deploy:
+- Pushed to My GitHub repo.
 
